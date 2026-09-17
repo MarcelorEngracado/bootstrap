@@ -45,17 +45,17 @@
 
         .linha-2 .coluna:last-child {
             background-color: #b5651d;
-            background-image: url('https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=80');
+            background-image: url('https://plus.unsplash.com/premium_photo-1676479611799-9702f72f36d1?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         }
 
         .linha-3 .coluna:nth-child(1) {
             background-color: #4682b4;
-            background-image: url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80');
+            background-image: url('https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80');
         }
 
         .linha-3 .coluna:nth-child(2) {
             background-color: #a0522d;
-            background-image: url('https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80');
+            background-image: url('https://plus.unsplash.com/premium_photo-1663012822996-ba7e04f3627a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         }
 
         .linha-3 .coluna:nth-child(3),
@@ -80,6 +80,23 @@
             padding: 32px;
             color: #212529;
             text-shadow: none;
+        }
+
+        .site-footer {
+            background: #212529;
+            color: #fff;
+            border-top: 4px solid #f4b400;
+            margin-top: 40px;
+            padding: 30px 0 18px;
+        }
+
+        .site-footer a {
+            color: #f4b400;
+            text-decoration: none;
+        }
+
+        .site-footer a:hover {
+            color: #fff;
         }
     </style>
 </head>
@@ -116,16 +133,16 @@
 
         <!-- Linha 2: 2 colunas de tamanho 6 -->
         <div class="row linha linha-2" id="produtos">
-            <div class="col-12 col-md-6 coluna">Rações</div>
-            <div class="col-12 col-md-6 coluna">Brinquedos</div>
+            <div class="col-12 col-md-6 coluna"><a href="racoes.html" class="text-decoration-none text-white">Rações</a></div>
+            <div class="col-12 col-md-6 coluna"><a href="brinquedo.html" class="text-decoration-none text-white">Brinquedos</a></div>
         </div>
 
         <!-- Linha 3: 3 colunas de tamanho 4 -->
         <div class="row linha linha-3" id="servicos">
-            <div class="col-12 col-md-4 coluna">Banho</div>
-            <div class="col-12 col-md-4 coluna">Tosa</div>
+            <div class="col-12 col-md-4 coluna"><a href="banho.html" class="text-decoration-none text-white">Banho</a></div>
+            <div class="col-12 col-md-4 coluna"><a href="tosa.html" class="text-decoration-none text-white">Tosa</a></div>
             <div class="col-12 col-md-4 coluna coluna-veterinario" id="veterinario">
-                <strong>Veterinário</strong>
+                <strong><a href="veterinario.html" class="text-decoration-none text-white">Veterinário</a></strong>
             </div>
         </div>
 
@@ -135,6 +152,32 @@
             <div class="col-12 col-md-8 coluna">Sobre o PetShop</div>
         </div>
     </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-md-4">
+                    <h5>PetShop Patinhas</h5>
+                    <p class="mb-0">Cuidados completos para o seu melhor amigo.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Links rápidos</h6>
+                    <p class="mb-1"><a href="racoes.html">Rações</a></p>
+                    <p class="mb-1"><a href="brinquedo.html">Brinquedos</a></p>
+                    <p class="mb-1"><a href="banho.html">Banho</a></p>
+                    <p class="mb-1"><a href="tosa.html">Tosa</a></p>
+                    <p class="mb-1"><a href="veterinario.html">Veterinário</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contato</h6>
+                    <p class="mb-1">(11) 3333-4444</p>
+                    <p class="mb-1">contato@petshoppatinhas.com</p>
+                    <p class="mb-0">Rua das Patas, 123</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

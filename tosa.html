@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tosa | PetShop Patinhas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(180deg, #fff7ef 0%, #ffffff 100%);
+            color: #1f1f1f;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topo {
+            background: #212529;
+            border-bottom: 4px solid #b5651d;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+            font-weight: 700;
+        }
+
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://plus.unsplash.com/premium_photo-1663012822996-ba7e04f3627a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            min-height: 280px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            border: 3px solid #212529;
+            margin: 30px auto 24px;
+            max-width: 1100px;
+        }
+
+        .hero-box {
+            background: rgba(181, 101, 29, 0.9);
+            color: #fff;
+            border: 3px solid #212529;
+            padding: 28px 32px;
+            max-width: 700px;
+        }
+
+        .card-pet {
+            border: 3px solid #212529;
+            background: #fff;
+            border-radius: 0;
+            box-shadow: 6px 6px 0 #b5651d;
+            height: 100%;
+        }
+
+        .badge-pet {
+            background: #b5651d;
+            color: white;
+            font-weight: 700;
+        }
+
+        .btn-pet {
+            background: #212529;
+            color: white;
+            border: 2px solid #212529;
+            font-weight: 700;
+            padding: 10px 18px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-pet:hover {
+            background: #b5651d;
+            border-color: #212529;
+            color: white;
+        }
+
+        .site-footer {
+            background: #212529;
+            color: #fff;
+            border-top: 4px solid #b5651d;
+            margin-top: 40px;
+            padding: 30px 0 18px;
+        }
+
+        .site-footer a {
+            color: #f0b37a;
+            text-decoration: none;
+        }
+
+        .site-footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 topo" aria-label="Navegação principal">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">PetShop Patinhas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuTosa" aria-controls="menuTosa" aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuTosa">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="racoes.html">Rações</a></li>
+                    <li class="nav-item"><a class="nav-link" href="brinquedo.html">Brinquedos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="banho.html">Banho</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tosa.html">Tosa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="veterinario.html">Veterinário</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-4">
+        <section class="hero">
+            <div class="hero-box">
+                <h1 class="mb-2">Tosa</h1>
+                <p class="mb-0">Estilo, conforto e cuidado com a pelagem do seu melhor amigo.</p>
+            </div>
+        </section>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card card-pet p-3">
+                    <span class="badge badge-pet mb-2">Higiene</span>
+                    <h3>Tosa Básica</h3>
+                    <p>Modelagem leve com higiene visual e acabamento para manter a pelagem saudável.</p>
+                    <strong>R$ 45,00</strong>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-pet p-3">
+                    <span class="badge badge-pet mb-2">Completa</span>
+                    <h3>Tosa Premium</h3>
+                    <p>Banho, corte e acabamento com atenção especial para cada raça e porte.</p>
+                    <strong>R$ 79,00</strong>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-pet p-3">
+                    <span class="badge badge-pet mb-2">Especial</span>
+                    <h3>Hidratação</h3>
+                    <p>Tratamento nutritivo para manter a pele e o pelo macios e brilhantes.</p>
+                    <strong>R$ 35,00</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5 text-center">
+            <a href="index.html" class="btn-pet">Voltar à página principal</a>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-md-4">
+                    <h5>PetShop Patinhas</h5>
+                    <p class="mb-0">Modelos elegantes para pets com estilo e conforto.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Mais serviços</h6>
+                    <p class="mb-1"><a href="racoes.html">Rações</a></p>
+                    <p class="mb-1"><a href="brinquedo.html">Brinquedos</a></p>
+                    <p class="mb-1"><a href="banho.html">Banho</a></p>
+                    <p class="mb-0"><a href="veterinario.html">Veterinário</a></p>
+                    <p class="mb-1"><a href="index.html">Início</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contato</h6>
+                    <p class="mb-1">(11) 3030-4040</p>
+                    <p class="mb-1">tosa@petshoppatinhas.com</p>
+                    <p class="mb-0">Rua do Estilo, 77</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
